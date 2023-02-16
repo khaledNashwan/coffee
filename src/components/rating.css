@@ -1,0 +1,20 @@
+.rating-wrapper {
+    margin: 5px 0;
+    display:flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.rating-wrapper .rating {
+    color: white;
+    background-color: #28a745;
+    padding:  4px;
+    border-radius: 7px;
+    margin-left: 10px;
+
+}
+
+.rating-wrapper span {
+    color: #2a7ddbb3;
+    font-weight: 600;
+}

@@ -1,0 +1,53 @@
+
+.auth-form-container{
+    background-color: #4a4a4a;
+    color:white;
+    margin-top: 4rem;
+    padding: 1rem;
+    width: 60%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.btn_submit{
+    padding: .7rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color:rgb(27, 215, 27);
+        color: white;
+    font-weight: bold;
+}
+
+.auth{
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width : 892px) {
+    .auth-form-container {
+        width: 90%;
+        margin-top: 1rem;
+    }
+        .Register_hea {
+            color: black;
+            padding-left: 1rem;
+            font-size: 32px;
+            margin-top: 2rem;
+        }
+}
+
+.Register_hea{
+color: black;
+padding-left: 15rem;
+font-size: 32px;
+margin-top: 4rem;
+}
+.login_regi{
+    margin-top: 1rem;
+   text-align: center;
+}

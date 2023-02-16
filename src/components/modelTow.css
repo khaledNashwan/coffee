@@ -1,0 +1,98 @@
+.modeltwo_contianer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model_wrapper{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+}
+.modeltwo_content {
+    width: 40%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+
+.icone_two {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+/* form*/
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-name {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.contact-form input[type="text"] {
+    width: 50%;
+}
+
+input{
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    color: black;
+    border: 1px solid black ;
+}
+.your_a{
+    width: 100% !important;
+}
+
+.contact-form .btn {
+    width: 80%;
+    margin-top: 1rem;
+
+}
+
+.btn_mo{
+    width: 100%;
+        background-color: #4a4a4a;
+            color: white;
+}
+
+.pay{
+color: #4a4a4a;
+font-size: 21px;
+display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-weight: bold;
+}
+
+.pay svg {
+    font-size: 50px;
+}
+
+.pay img {
+    width: 60px;
+}
+

@@ -1,0 +1,73 @@
+
+.login_contianer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-top:8rem;
+}
+
+.login_hea{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+
+.login_img{
+    width: 300px;
+}
+
+.login_img img {
+    width: 100%;
+}
+.login_right{
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+}
+
+.contact-for {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 400px;    
+    text-align: center;
+}
+
+.input_log {
+    padding: 1rem;
+    width: 100%;
+}
+
+.btn_login{
+    border-radius: 6px;
+    color: white;
+    background-color: #4a4a4a;
+    padding: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.parag_login{
+    font-weight: bold;
+}
+
+@media screen and (max-width : 892px) {
+    .login_contianer {
+        flex-direction: column;
+        margin: auto;
+    }
+}

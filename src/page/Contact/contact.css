@@ -1,0 +1,121 @@
+
+.contact-container {
+    background: #7d7979;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 37% 57%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: white;
+}
+
+.contact-aside {
+    background: #4a4a4a;
+    padding: 3rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    position: relative;
+    bottom: 8rem;
+    margin-left: 4rem;
+}
+
+.aside-image {
+    width: 12rem;
+    margin-bottom: 2rem;
+}
+
+.contact-aside h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.contact-aside p {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.contact-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-detail li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.contact-socials a {
+    background-color: var(--color-bg2);
+    padding: .5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: .9rem;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    color: white;
+}
+
+.contact-socials a:hover {
+    background: transparent;
+}
+
+/* form*/
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+
+.form-name {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.contact-form input[type="text"] {
+    width: 50%;
+}
+
+.input,
+textarea {
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    color: black;
+}
+
+.contact-form .btn_header {
+    width: max-content;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
