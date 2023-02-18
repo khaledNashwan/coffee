@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Products } from "../../data";
 import "./product.css";
-import Model from "../Model/Model";
 import Rating from "../Rating/Rating";
+import Model from "./Model";
 
 
 const Proudct = () => {

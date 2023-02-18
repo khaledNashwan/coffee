@@ -68,27 +68,28 @@ const Cart = () => {
               </div>
             ))}
           </div>
-
-          {cartItemLength > 0 && (
-            <div className="btn_comfor">
-              <button
-                onClick={() => setOpenModaltwo(true)}
-                className="btn_pro olo"
-                type="submit"
-              >
-                Confirmation
-              </button>
-            </div>
-          )}
-
-          <div className="cart-summary-total">
-            total-Price:
-            <span>
-              {cartItem
-                .reduce((acc, cur) => acc + cur.price * cur.quantity, 0)
-                .toFixed(2)}
-              $
-            </span>
+          <div className="total_cart">
+            <div className="cart-summary-total">
+              total-Price:
+              <span>
+                {cartItem
+                  .reduce((acc, cur) => acc + cur.price * cur.quantity, 0)
+                  .toFixed(2)}
+                $
+              </span>
+              </div>
+              
+            {cartItemLength > 0 && (
+              <div className="btn_comfor">
+                <button
+                  onClick={() => setOpenModaltwo(true)}
+                  className="btn_pro"
+                  type="submit"
+                >
+                  Confirmation
+                </button>
+              </div>
+            )}
           </div>
 
           {openModaltwo && <ModelTow setOpenModaltwo={setOpenModaltwo} />}

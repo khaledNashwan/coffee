@@ -1,9 +1,7 @@
-.About_contianer p{
-    margin-bottom: 1rem;
-    font-weight: bold;
-    padding-left: 12rem;
-}
-
-.text_one{
-    margin-bottom: 3rem;
+.text_one,.text_two{
+margin-bottom: 2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
 }
