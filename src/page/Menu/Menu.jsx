@@ -1,16 +1,15 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
-import Proudct from '../../components/Proudct'
-import './Menu.css'
+import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import Proudct from "../../components/Product/Proudct";
 
 const Menu = () => {
   return (
     <>
-        <Navbar />
+      <Navbar />
 
-    <Proudct />
-      </>
-  )
-}
+      <Proudct />
+    </>
+  );
+};
 
-export default Menu
+export default Menu;

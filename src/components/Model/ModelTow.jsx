@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { AiOutlineClose  } from 'react-icons/ai'
-import img_pay from '../image/paypal.png'
-import img_pay1 from '../image/visa.png'
-import img_pay2 from '../image/apple-pay.png'
+import img_pay from '../../image/paypal.png'
+import img_pay1 from '../../image/visa.png'
+import img_pay2 from '../../image/apple-pay.png'
 
 
 import ModelThree from './ModelThree';

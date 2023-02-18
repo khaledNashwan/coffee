@@ -1,7 +1,8 @@
 import React from 'react'
 import { BsWhatsapp, BsTwitter, BsFacebook } from 'react-icons/bs' 
 import { FaInstagram } from 'react-icons/fa'
-import {AiFillCopyrightCircle} from 'react-icons/ai'
+import { AiFillCopyrightCircle } from 'react-icons/ai'
+import './footer.css'
 
 const Footer = () => {
   return (

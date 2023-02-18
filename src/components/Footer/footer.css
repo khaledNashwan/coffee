@@ -1,0 +1,91 @@
+/*footer*/
+
+footer {
+  background-color: #4a4a4a;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  color:white;
+}
+
+.container__footer {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  align-items: flex-start;
+  padding-bottom: 2rem;
+
+}
+
+.columen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main_footer_text {
+  font-size: .9rem;
+}
+
+.columen p {
+  margin: 0;
+
+}
+.columen h4{
+  margin-bottom: 1rem;
+
+}
+.columen .email {
+  margin-bottom: 2rem;
+}
+
+
+
+.columen a {
+  color: white;
+  font-size: .9rem;
+}
+
+
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icon_footer{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main_footer_text{
+  width: 400px;
+}
+
+@media screen and (max-width: 992px) {
+  .container__footer {
+display: flex;
+flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  align-items: flex-start;
+  padding-bottom: 2rem;
+
+}
+
+.main_footer_text{
+  width: 300px;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .main_footer_text{
+  width: 200px;
+}
+}

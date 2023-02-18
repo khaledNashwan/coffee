@@ -1,9 +1,8 @@
-import React from 'react'
-import Footer from '../../components/Footer'
-import Header from '../../components/Header'
-import Navbar from '../../components/Navbar'
-import './home.css'
-
+import React from "react";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Navbar from "../../components/Navbar/Navbar";
+import "./home.css";
 
 const Home = () => {
   return (
@@ -11,8 +10,8 @@ const Home = () => {
       <Navbar />
       <Header />
       <Footer />
-  </>
-  )
-}
+    </>
+  );
+};
 
-export default Home
+export default Home;

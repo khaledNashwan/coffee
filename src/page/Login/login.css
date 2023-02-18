@@ -71,3 +71,18 @@
         margin: auto;
     }
 }
+
+@media screen and (max-width : 350px) {
+
+.login_img{
+    width: 250px;
+}
+.contact-for {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 300px;    
+    text-align: center;
+    margin-left: auto;
+}
+}

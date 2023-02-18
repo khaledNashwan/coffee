@@ -1,4 +1,5 @@
 /*Navbar*/
+
 nav{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     height: 5.5rem;
@@ -88,3 +89,28 @@ nav{
     transform: scaleX(1);
 }
 
+@media screen and (max-width: 992px) {
+    nav{
+    height: 10rem;
+            
+}
+    .Nav_contianer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 21px;
+    display: flex;
+    width: 100%;
+}
+
+.logo img {
+    width: 60px;
+
+}
+}
