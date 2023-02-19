@@ -24,7 +24,8 @@ const ModelTow = ({ setOpenModaltwo }) => {
              </div>
        <div className="model_wrapper">
          <form className="contact-form" >
-           <label className="pay" htmlFor="">We accept  
+           <label className="pay" htmlFor="">
+             We accept  
              <img src={img_pay} alt="" />
              <img src={img_pay1} alt="" />
              <img src={img_pay2} alt="" />

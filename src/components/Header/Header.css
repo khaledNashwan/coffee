@@ -12,7 +12,7 @@ display: flex;
   align-items: center;
   margin-bottom: 5rem;
   margin-top: 5rem;
-  
+  gap: 2rem;
 }
 
 .left{
@@ -31,7 +31,6 @@ display: flex;
   -ms-border-radius:12px ;
   -o-border-radius:12px ;
   background-color: #4a4a4a;
-
 }
 .left img {
   width: 100%;
@@ -57,13 +56,68 @@ display: flex;
 
 .right{
   width: 500px;
+  height: 200px;
 }
 
 .right p{
-    margin-bottom: 1rem;
     font-size: 21px;
 }
 
+@media screen and (max-width: 1150px) {
+  .hero{
+  align-items: flex-start;
+}
+ .left::before{
+  width: 423px;
+  height: 270px;
+ }
+}
+
+@media screen and (max-width: 1114px) {
+.hero{
+  align-items: center;
+  flex-direction: column;
+}
+
+.left::before{
+  content: "";
+  position: absolute;
+ width: 500px;
+  height: 330px;}
+}
+
+
+@media screen and (max-width: 692px) {
+  .hero{
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left::before{
+  content: "";
+  position: absolute;
+ width: 280px;
+  height: 190px;
+}
+
+.left{
+  width: 280px;
+  height: max-content;
+  position: relative;
+}
+
+.right{
+  width: 250px;
+}
+.right p {
+    font-size: 18px;
+
+}
+
+}
+
+/*hero two*/
 
 .coffee_image{
   display: flex;
@@ -128,7 +182,25 @@ display: flex;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-/*hero*/
+
+@media screen and (max-width : 992px) {
+  .more{
+  position: absolute;
+  right: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.coffee_image{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 8rem;
+    position: relative;
+    flex-wrap: wrap;
+}
+}
+/*hero two*/
 
 
 .hero_hjj{
@@ -139,6 +211,7 @@ display: flex;
   margin-bottom: 5rem;
   padding: .5rem;
   gap: 2rem;
+  flex-wrap: wrap;
  
 }
 
@@ -203,10 +276,20 @@ display: flex;
   font-weight: bold;
 }
 
+@media screen and (max-width : 692px) {
+  .hero_hjj_image{
+ width: 550px;
+}
+
+.hero_hjj p{
+  width: 300px;
+  font-size: 18px;
+}
+
+}
 
 
 
-/*hero*/
 
 /*Header*/
 

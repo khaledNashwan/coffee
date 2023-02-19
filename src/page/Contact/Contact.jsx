@@ -2,9 +2,14 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import "./contact.css";
 import phote_contact from "../../image/contact.svg";
-import { BsTelephonePlus, BsEnvelopeOpenFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
-import { BsWhatsapp, BsTwitter, BsFacebook } from "react-icons/bs";
+import {
+  BsWhatsapp,
+  BsTwitter,
+  BsFacebook,
+  BsTelephonePlus,
+} from "react-icons/bs";
+import { MdEmail } from 'react-icons/md';
 import { FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
@@ -28,8 +33,8 @@ const Contact = () => {
                 <h5>+24567899007</h5>
               </li>
               <li>
-                <BsEnvelopeOpenFill />
-                <h5>supporet@nashwan.com</h5>
+                <MdEmail />
+                <h5>support@email.com</h5>
               </li>
               <li>
                 <IoLocationSharp />
@@ -39,7 +44,7 @@ const Contact = () => {
 
             <ul className="contact-socials">
               <li>
-                <a href="">
+                <a href="#">
                   <BsFacebook />
                 </a>
               </li>

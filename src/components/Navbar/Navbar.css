@@ -11,56 +11,21 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.logo {
+.logo h3 {
     font-weight: bold;
     font-size: 21px;
-    display: flex;
-    align-items: center;
 }
 
-.logo img {
-    width: 70px;
 
-}
 
 .menu ul {
     display: flex;
     gap: 1rem;
     font-size: 21px;
     align-items: center;
-}
-
-.icone{
-    display: flex;
-    gap: 1rem;
-    font-size: 28px;
-}
-
-.cart_i {
-    position: relative;
-}
-
-.cart-notfication {
-    background-color: red;
-    color: white;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: absolute;
-    top: -10px;
-    right: -5px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.icone2{
-    margin-top: 1rem;
 }
 
 .navbar-links .black{
@@ -89,6 +54,36 @@ nav{
     transform: scaleX(1);
 }
 
+
+.ie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 24px;
+}
+
+.cart_i {
+    position: relative;
+}
+
+.cart-notfication {
+    background-color: red;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    font-size: 10px;
+    text-align: center;
+}
+
 @media screen and (max-width: 992px) {
     nav{
     height: 10rem;
@@ -96,10 +91,10 @@ nav{
 }
     .Nav_contianer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -107,10 +102,35 @@ nav{
     font-size: 21px;
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
     width: 60px;
 
+}
+
+
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+    height: 15rem;       
+}
+
+ .Nav_contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.ie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 18px;
 }
 }

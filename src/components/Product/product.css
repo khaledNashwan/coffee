@@ -1,6 +1,5 @@
 .Proudct{
-    height: 300vh;
-    margin-bottom: 1rem;
+    height: max-content;
 }
 .Proudct_contianer{
     display: grid;
@@ -109,5 +108,10 @@ text-transform: capitalize;
     margin-bottom: 4rem;
 }
 
+
+
 }
 
+.card{
+    margin-bottom: 2rem;
+}
